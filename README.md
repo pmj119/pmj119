@@ -4,7 +4,7 @@
 💡 Passionate about responsive design, UI animations, and creative frontend experiences.
 
 🌐 **Portfolio:** [pmj119.github.io/portfolio](https://pmj119.github.io/portfolio)  
-📫 **Email:** [prathamesh@example.com](mailto:prathamesh@example.com)  
+📫 **Email:** [prathameshmjadhav119@gmail.com](mailto:prathameshmjadhav119@gmail.com)  
 🐙 **GitHub:** [github.com/pmj119](https://github.com/pmj119)
 
 ---
