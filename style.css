@@ -1,0 +1,9 @@
+body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+}
+input, textarea {
+    border-color: #d1d5db;
+}
+textarea {
+    resize: vertical;
+}
