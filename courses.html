@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Mastery Academy - Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-blue-100 font-sans">
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Coding Mastery Academy</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:underline">Home</a></li>
+                <li><a href="courses.html" class="hover:underline">Courses</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container mx-auto py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">Our Front-End Development Courses</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Beginner HTML & CSS</h3>
+                <p class="mt-4">Build stunning websites with HTML and CSS. 4 weeks, online or offline (Mumbai).</p>
+                <p class="mt-2"><strong>Price:</strong> ₹5,000 (Online) / ₹7,000 (Offline)</p>
+                <a href="course-details.html?id=html-css" class="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">View Details</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">JavaScript Essentials</h3>
+                <p class="mt-4">Master interactive web development. 6 weeks, online or offline (Mumbai).</p>
+                <p class="mt-2"><strong>Price:</strong> ₹6,500 (Online) / ₹8,500 (Offline)</p>
+                <a href="course-details.html?id=javascript" class="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">View Details</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">React for Beginners</h3>
+                <p class="mt-4">Create dynamic web apps with React. 5 weeks, online only.</p>
+                <p class="mt-2"><strong>Price:</strong> ₹7,000</p>
+                <a href="course-details.html?id=react" class="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">View Details</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-blue-600 text-white text-center py-4">
+        <p>&copy; 2025 Coding Mastery Academy. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
