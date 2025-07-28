@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Mastery Academy - Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-blue-100 font-sans">
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Coding Mastery Academy</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:underline">Home</a></li>
+                <li><a href="courses.html" class="hover:underline">Courses</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container mx-auto py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">Checkout</h2>
+        <div class="bg-white p-6 rounded-lg shadow-md max-w-lg mx-auto">
+            <h3 id="checkout-title" class="text-xl font-semibold mb-4">Complete Your Purchase</h3>
+            <p id="checkout-price" class="mb-4"></p>
+            <p class="mb-4 text-sm text-gray-600">Simulated payment form (mimics Stripe). Enter details to proceed.</p>
+            <input type="text" id="card-name" placeholder="Name on Card" class="w-full p-3 mb-4 border rounded">
+            <input type="text" id="card-number" placeholder="Card Number" class="w-full p-3 mb-4 border rounded">
+            <div class="flex space-x-4">
+                <input type="text" id="card-expiry" placeholder="MM/YY" class="w-full p-3 mb-4 border rounded">
+                <input type="text" id="card-cvc" placeholder="CVC" class="w-full p-3 mb-4 border rounded">
+            </div>
+            <button onclick="processPayment()" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Pay Now</button>
+            <p id="payment-message" class="mt-4 text-blue-600"></p>
+        </div>
+    </section>
+    <footer class="bg-blue-600 text-white text-center py-4">
+        <p>&copy; 2025 Coding Mastery Academy. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
